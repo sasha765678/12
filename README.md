@@ -1,4 +1,4 @@
-# title
+# title (Vlad is cool)
 
 ## sub-title
 
