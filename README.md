@@ -1,4 +1,4 @@
-# title
+# title (Sasha is great)
 
 ## sub-title
 
