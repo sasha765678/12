@@ -1,5 +1,3 @@
-#aalto #programming 
-
 # Template for C
 
 ```C
@@ -796,3 +794,19 @@ int main(int argc, char *argv[]) {
 
 - Вызов программы выглядит как:
 	`./myprogram hello world 123`
+
+# Чтение строки
+```C
+#include <stdio.h>
+
+int main() {
+    char str[100]; // Объявляем массив для хранения строки
+
+    printf("Введите строку: ");
+    fgets(str, sizeof(str), stdin); // Читаем строку с клавиатуры
+
+    printf("Вы ввели: %s", str); // Выводим введенную строку
+
+    return 0;
+}
+```
